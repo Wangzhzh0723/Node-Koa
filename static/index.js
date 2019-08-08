@@ -1,6 +1,6 @@
 const path = require("path")
-const content = require("../util/content")
-const mimes = require("../util/mimes")
+const content = require("../utils/content")
+const mimes = require("../utils/mimes")
 
 // 静态资源目录对于相对入口文件index.js的路径
 // const staticPath = "./static"
