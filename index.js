@@ -1,0 +1,7 @@
+const Koa = require("koa")
+const bodyParser = require("koa-bodyparser")
+const route = require("./router")
+const app = new Koa()
+app.use(bodyParser())
+app.use(route.routes(), route.allowedMethods())
+app.listen(64723)
