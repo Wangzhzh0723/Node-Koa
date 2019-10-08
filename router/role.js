@@ -5,4 +5,5 @@ route.get("/", async (ctx, next) => {
     description: "角色描述"
   })
 })
+
 module.exports = route
